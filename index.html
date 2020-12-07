@@ -1,11 +1,185 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./estilos/estilo.css">
+    <title>Software de desarrollo 3D</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>WEB JOSE</h1>
+    <!-- Cabecera con titulo y boton home que nos devuelve la pagina a su estado inicial -->
+    <header>
+        <h1 class="header-title">Software 3D</h1>
+        <nav class="navbar">
+            <ul>
+                <li class="nav-item">
+                    <!-- Boton vacío porque activa un js -->
+                    <a href="" class="nav-link" id="indice">Inicio</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Bloque con el Grid, de 4x3 en monitores estandard y dinámico en pantallas pequeñas -->
+    <!-- Los botones están vacios porque activan un JS que oculta el grid y coloca en su lugar la informacion correspondiente -->
+    <section class="grid-3d" id="seccion-principal">
+        <article class="section-item">
+            <h2>3DSMax</h2>
+            <div class="img-container">
+                <img src="./assets/3dsmax.png" alt="Logo 3DSMax">
+            </div>
+            <div class="btn-container">
+                <a href="" class="btn-detail" name="3dsmax">Detalle</a>
+                <a href="https://www.autodesk.es/products/3ds-max/overview" target="blank" >Oficial</a>
+            </div>
+        </article>
+        <article class="section-item">
+            <h2>Blender</h2>
+            <div class="img-container">
+                <img src="./assets/blender.png" alt="Logo Blender">
+            </div>
+            <div class="btn-container">
+                <a href="" class="btn-detail" name="blender">Detalle</a>
+                <a href="https://www.blender.org/" target="blank">Oficial</a>
+            </div>
+        </article>
+        <article class="section-item">
+            <h2>Cinema4D</h2>
+            <div class="img-container">
+                <img src="./assets/CInema4d.png"  alt="Logo Cinema4d">
+            </div>
+            <div class="btn-container">
+                <a href="" class="btn-detail">Detalle</a>
+                <a href="https://www.maxon.net/es/cinema-4d" target="blank">Oficial</a>
+            </div>
+        </article>
+        <article class="section-item">
+            <h2>Houdini</h2>
+            <div class="img-container">
+                <img src="./assets/houdini.png" alt="Logo Houdini">
+            </div>
+            <div class="btn-container">
+                <a href="" class="btn-detail" >Detalle</a>
+                <a href="https://www.sidefx.com/products/houdini/" target="blank">Oficial</a>
+            </div>
+        </article>
+        <article class="section-item">
+            <h2>Maya</h2>
+            <div class="img-container">
+                <img src="./assets/maya.png" alt="Logo Maya">
+            </div>
+            <div class="btn-container">
+                <a href="" class="btn-detail">Detalle</a>
+                <a href="https://www.autodesk.es/products/maya/overview" target="blank">Oficial</a>
+            </div>
+        </article>
+        <article class="section-item">
+            <h2>Fusion</h2>
+            <div class="img-container">
+                <img src="./assets/fusion.png" alt="Logo Fusion">
+            </div>
+            <div class="btn-container">
+                <a href="" class="btn-detail">Detalle</a>
+                <a href="https://www.autodesk.com/products/fusion-360/overview" target="blank">Oficial</a>
+            </div>
+        </article>
+        <article class="section-item">
+            <h2>Rhino</h2>
+            <div class="img-container">
+                <img src="./assets/Rhino.png" alt="Logo Rhino">
+            </div>
+            <div class="btn-container">
+                <a href="" class="btn-detail">Detalle</a>
+                <a href="https://www.rhino3d.com/es/" target="blank">Oficial</a>
+            </div>
+        </article>
+        <article class="section-item">
+            <h2>ZBrush</h2>
+            <div class="img-container">
+                <img src="./assets/zbrush.png" alt="Logo Zbrush">
+            </div>
+            <div class="btn-container">
+                <a href="" class="btn-detail">Detalle</a>
+                <a href="https://pixologic.com/" target="blank">Oficial</a>
+            </div>
+        </article>
+        <article class="section-item">
+            <h2>Daz 3D</h2>
+            <div class="img-container">
+                <img src="./assets/DAz3d.png" alt="Logo Daz3d">
+            </div>
+            <div class="btn-container">
+                <a href="" class="btn-detail">Detalle</a>
+                <a href="https://www.daz3d.com/" target="blank">Oficial</a>
+            </div>
+        </article>
+        <article class="section-item">
+            <h2>Sketchup</h2>
+            <div class="img-container">
+                <img src="./assets/sketchup.png" alt="Logo Sketchup">
+            </div>
+            <div class="btn-container">
+                <a href="" class="btn-detail">Detalle</a>
+                <a href="https://www.sketchup.com/es" target="blank">Oficial</a>
+            </div>
+        </article>
+        <article class="section-item">
+            <h2>3d Coat</h2>
+            <div class="img-container">
+                <img src="./assets/3dcoat.png" alt="Logo 3dcoat">
+            </div>
+            <div class="btn-container">
+                <a href="" class="btn-detail">Detalle</a>
+                <a href="https://3dcoat.com/" target="blank">Oficial</a>
+            </div>
+        </article>
+        <article class="section-item">
+            <h2>Modo</h2>
+            <div class="img-container">
+                <img src="./assets/modo.png" alt="Logo Modo">
+            </div>
+            <div class="btn-container">
+                <a href="" class="btn-detail">Detalle</a>
+                <a href="https://www.foundry.com/products/modo" target="blank">Oficial</a>
+            </div>
+        </article>  
+    </section>
+    
+    <!-- Bloque HTML Secciones, que se rellenará mediante js cuando se clicke un boton -->
+    <section class="detalle" id="seccion-detalle">
+        <div class="imgDetalle">
+            <img id="imagen-detalle" src="" alt="logo">
+        </div>
+        <div class="parrafo">
+            <h2 id="titulo-detalle"></h2>
+            <p id="info-detalle">
+            </p>
+        </div>
+    </section>
+    <!-- Fin bloque detalle-->    
+
+<footer>
+    <div id="nombre">
+        <span>Realizado por <b>Jose Rodríguez Martínez</b></span>
+    </div>
+    <address>
+        <div> <!-- Bloque mail -->
+            <img class="icono" src="./assets/email.svg" alt="iconoEmail">
+            <a href="mailto:joserodriguez.alu@iespacomolla.es" class="footer-text">joserodriguez.alu@iespacomolla.es</a>
+        </div>
+        <div> <!-- Bloque Teléfono -->
+            <img class="icono" src="./assets/telefono.svg" alt="iconoTeléfono">
+            <a href="tel:664426662" class="footer-text">664-426-662</a>
+        </div>
+        <div> <!-- Bloque Dirección -->
+            <img class="icono" src="./assets/direccion.svg" alt="iconoDireccion">
+            <a href="https://goo.gl/maps/5KwwCD9H3Y73LRYD9" class="footer-text">C/Joaquín Coronel Nº42 bajos 03600 Elda</a>
+        </div>
+    </address>
+</footer>
+
+    <script src="./detalle.js"></script>
 </body>
 </html>
