@@ -50,7 +50,7 @@ const detalles = [
         "descripcion": "ZBrush es un programa de modelado 3D, escultura y pintura digital. Zbrush inició como un programa que permitía crear pinturas digitales e insertar en ellas objetos 3D. Esta herramienta es similar al uso de arcilla de esculpido, pero digital, la cual permite sacar tus ideas de tu cabeza y materializarlas. Este programa ha influido en el cine y los videojuegos al facilitar la creación de personajes. Sirve para esculpir formas en arcilla digital y crear personas, orcos, dragones, animales, monstruos y más criaturas u objetos."
     },
     {
-        "imagen": "./assets/daz3d.png",
+        "imagen": "./assets/DAz3d.png",
         "titulo": "Daz 3d",
         "descripcion": "Software de modelado y renderizado 3D cuya característica principal es la inclusión, por defecto, de una gran biblioteca de contenido 3D, la cual permite al diseñador crear personajes y escenas de gran realidmo en periodos de tiempo muy cortos. Tambien cabe destacar la enorme comunidad que se dedica a incrementar dicha biblioteca de manera voluntaria y gratuita."
     },
@@ -71,6 +71,7 @@ const detalles = [
     },
 ];
 
+/* Funcion que permite al boton inicio mostrar de nuevo el grid */
 indice.addEventListener('click', function (e) {
     e.preventDefault();
     seccionGrid.style.display = 'grid';
