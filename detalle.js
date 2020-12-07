@@ -40,7 +40,7 @@ const detalles = [
         "descripcion": "Fusion 360 destaca por ser un programa de modelado mixto, es decir, permite al diseñador trabajar con geometrías CAD, polígonales e incluso NURBs, lo cual lo convierte en una herramientra estraordinaria tanto para diseñadores CAD tradicionales cómo para otros ámbitos como el de los videojuegos, donde se realizan modelos poligonales con carácterídticas tradicionalmente propias del diseño CAD, como automóviles o armas."
     },
     {
-        "imagen": "./assets/rhino.png",
+        "imagen": "./assets/Rhino.png",
         "titulo": "Rhino",
         "descripcion": "Rhino es un programa de diseño NURBs, cuya principal característica es la creación de complejas formas geométricas, dificilmente realizables mediante el uso de geometría poligonal, en base al uso de splines. Una de sus características más importantes es la implementación de componentes cómo grasshoper sque permiten generacion de modelos paramétricos."
     },
