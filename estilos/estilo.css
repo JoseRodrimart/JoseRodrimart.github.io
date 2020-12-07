@@ -239,10 +239,19 @@ address > div{
 }
 
 
-/* Ajustes para movil*/
-@media (max-width: 1000px){
+/* Ajustes para movil y tablet*/
+@media (max-width: 1000px), (max-height: 800px){
     body {
         background: lightcoral;
+        position: relative;
+    }
+    #indice{
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
+    header{
+        box-shadow: none;
     }
     .grid-3d {
         display: grid;
@@ -263,15 +272,7 @@ address > div{
     footer * {
         display: block;
     }
-}
-@media (max-height: 800px){
-    body{position: relative;}
-    #indice{
-        position: absolute;
-        top: 15px;
-        left: 15px;
-    }
-    header{
-        box-shadow: none;
+    .header-title{
+        padding-top: 50px;
     }
 }
